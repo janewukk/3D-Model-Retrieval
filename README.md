@@ -6,4 +6,5 @@ pip install flask
 
 ### Run the program;
 export FLASK_ENV=development
+
 flask run
