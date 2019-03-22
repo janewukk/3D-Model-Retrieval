@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Page Title</title>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/css/bootstrap.min.css" integrity="sha384-PDle/QlgIONtM1aqA2Qemk5gPOE7wFq8+Em+G/hmo5Iq0CCmYZLv3fVRDJ4MMwEA" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.1/css/bootstrap-select.css" />
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+	</head>
+
+	<body>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/js/bootstrap.min.js" integrity="sha384-7aThvCh9TypR7fIc2HV4O/nFMVCBwyIUKL8XCtKE+8xgCgl/PQGuFsvShjr74PBp" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.1/js/bootstrap-select.min.js"></script>
+        <script defer src="https://use.fontawesome.com/releases/v5.8.1/js/all.js" integrity="sha384-g5uSoOSBd7KkhAMlnQILrecXvzst9TdC09/VM+pjDTCM+1il8RHz5fKANTFFb+gQ" crossorigin="anonymous"></script>
+
+		<div style="background-image: url('../static/header2.png'); height: 200px; margin-top: -7px; ">
+			<br>
+			<h1 style="text-align: center; color: white">Welcome to 3D Model Retrieval System!</h1>
+		</div>
+		<div class="row" style="width: 100%; margin-right: 0px; margin-left: 0px">
+			<div class="col-lg-6" style="width: 110%; height: 750px; background-color: #F0EDE5">
+				<br>
+				<h3>Search Area:</h3><hr>
+				<div class="row">
+					<div class="input-group col-md-6">
+						<select class="custom-select" id="inputGroupSelect04">
+							<option selected>Choose...</option>
+							<option value="1">Car</option>
+							<option value="2">Dog</option>
+							<option value="3">Tree</option>
+						</select>
+						<div class="input-group-append">
+						<button class="btn btn-outline-secondary" type="button">Filter By Keyword</button>
+						</div>
+					</div>
+					<div class="input-group col-md-6">
+						<div class="custom-file">
+							<input type="file" class="custom-file-input" id="inputGroupFile04">
+							<label class="custom-file-label" for="inputGroupFile04">Choose file</label>
+						</div>
+						<div class="input-group-append">
+							<button class="btn btn-outline-secondary" type="button">Query</button>
+						</div>
+					</div>
+				</div>
+				<br>
+				<div style="border-style: solid; border-color: black; border-width: 2px; width: 100%; height: 77%"></div>
+			</div>
+			<div class="col-lg-6" style="width: 100%; height: 750px; background-color: #EADEDB">
+				<br>
+				<h3>Result Area:</h3>
+				<hr>
+			</div>
+		</div>
+
+		<footer class="page-footer font-small special-color-dark pt-4">
+			<div style="text-align: center;">
+			  <span>Created by Junyue Wu<i class="fa fa-eercast" aria-hidden="true"></i>, Jian Song <i class="fa fa-grav" aria-hidden="true"></i></span>
+			</div>
+		</footer>
+	</body>
+</html>
