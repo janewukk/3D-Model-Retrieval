@@ -1,6 +1,7 @@
 from flask import Flask, render_template,request
 import json
 from base64 import b64decode
+import io
 
 app = Flask(__name__)
 
@@ -31,4 +32,11 @@ def process_draw_data():
 
 @app.route('/upload', methods=['POST'])
 def process_upload_data():
-	return "good"
+	file = request.files["file"]
+	file.save("query/query.png")
+	query("query/query.png")
+	data_back = {
+		"image": [],
+		"rank": []
+	}
+	return json.dumps(data_back)

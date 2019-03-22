@@ -23,7 +23,9 @@
 				padding: 1em;
 				color:white;
 			}
-
+			#customFile .custom-file-control:lang(en)::before {
+			  content: "Upload";
+			}
         </style>
 	</head>
 
@@ -45,16 +47,17 @@
 							<option value="3">Tree</option>
 						</select>
 						<div class="input-group-append">
-						<button class="btn btn-outline-secondary" type="button">Filter By Keyword</button>
+						<button class="btn btn-primary" type="button">Filter By Keyword</button>
 						</div>
 					</div>
 					<div class="input-group col-md-6">
-						<div class="custom-file">
-							<input type="file" class="custom-file-input" id="inputGroupFile04">
-							<label class="custom-file-label" for="inputGroupFile04">Choose file</label>
-						</div>
+						<label class="custom-file" id="customFile">
+					        <input type="file" class="custom-file-input" id="exampleInputFile" aria-describedby="fileHelp">
+					        <label class="custom-file-label" id="place_to_add_name" for="exampleInputFile">Select file...</label>
+						</label>
+
 						<div class="input-group-append">
-							<button class="btn btn-outline-secondary" type="button">Query</button>
+							<input type="button" class="btn btn-success" type="button" onclick="query_by_file()" value="Query" />
 						</div>
 					</div>
 				</div>
@@ -107,6 +110,12 @@
 			  <span>Created by Junyue Wu<i class="fa fa-eercast" aria-hidden="true"></i>, Jian Song <i class="fa fa-grav" aria-hidden="true"></i></span>
 			</div>
 		</footer>
+
+		<script>
+			var canvas = document.getElementById('sketcher');
+			var atrament = atrament(canvas,  canvas.offsetWidth, canvas.offsetHeight);
+			var clearButton = document.getElementById('clear');
+		</script>
 
 		<script src="{{url_for('static', filename='js/index.js') }}"></script>
 	</body>
