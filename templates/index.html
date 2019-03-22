@@ -6,21 +6,34 @@
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.1/css/bootstrap-select.css" />
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-	</head>
-
-	<body>
+		<script src="{{url_for('static', filename='js/atrament.min.js') }}"></script>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/js/bootstrap.min.js" integrity="sha384-7aThvCh9TypR7fIc2HV4O/nFMVCBwyIUKL8XCtKE+8xgCgl/PQGuFsvShjr74PBp" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.1/js/bootstrap-select.min.js"></script>
         <script defer src="https://use.fontawesome.com/releases/v5.8.1/js/all.js" integrity="sha384-g5uSoOSBd7KkhAMlnQILrecXvzst9TdC09/VM+pjDTCM+1il8RHz5fKANTFFb+gQ" crossorigin="anonymous"></script>
+        <style>
+        	form {
+				z-index: 3;
+				width: 100%;
+				height: 50px;
+				top: 300;
+				left: 100;
+				background: rgba(0, 0, 0, 0.7);
+				padding: 1em;
+				color:white;
+			}
 
-		<div style="background-image: url('../static/header2.png'); height: 200px; margin-top: -7px; ">
+        </style>
+	</head>
+
+	<body>
+		<div style="background-image: url('../static/header2.png'); height: 160px; margin-top: -7px; ">
 			<br>
 			<h1 style="text-align: center; color: white">Welcome to 3D Model Retrieval System!</h1>
 		</div>
 		<div class="row" style="width: 100%; margin-right: 0px; margin-left: 0px">
-			<div class="col-lg-6" style="width: 110%; height: 750px; background-color: #F0EDE5">
+			<div class="col-lg-6" style="width: 110%; height: 800px; background-color: #F0EDE5">
 				<br>
 				<h3>Search Area:</h3><hr>
 				<div class="row">
@@ -46,9 +59,43 @@
 					</div>
 				</div>
 				<br>
-				<div style="border-style: solid; border-color: black; border-width: 2px; width: 100%; height: 77%"></div>
+
+				<div style="border-style: solid; border-color: black; border-width: 2px; width: 100%; height: 77%">
+					<form>
+						<div class="row">
+							<div class="col-md-2">
+								<button id="clear" class="btn btn-warning" style="margin-top: -10px;" onclick="clear()">clear
+								</button>
+							</div>
+							<div class="col-md-9" style="margin-left: -30px; ">
+								<div class="row">
+									<div class="col-md-4">
+										<label>Adaptive stroke</label>
+										<input type="checkbox" onchange="atrament.adaptiveStroke = event.target.checked;" checked autocomplete="off">
+									</div>
+									<div class="col-md-5" style="margin-left: -20px">
+										<label>Thickness</label>
+										<input type="range" min="1" max="40" oninput="atrament.weight = parseFloat(event.target.value);" value="2" step="0.1" autocomplete="off"/>
+									</div>
+									<div class="col-md-3">
+										<label>Mode</label>
+										<select onchange="atrament.mode = event.target.value;">
+											<option value="draw" default>Draw</option>
+											<option value="fill" default>Fill</option>
+											<option value="erase" default>Erase</option>
+										</select>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-1">
+								<input type="button" style="margin-top: -10px;" class="btn btn-success" value="Query" />
+							</div>
+						</div>
+					</form>
+					<canvas id="sketcher" style="height: 570px; width: 800px"></canvas>
+				</div>
 			</div>
-			<div class="col-lg-6" style="width: 100%; height: 750px; background-color: #EADEDB">
+			<div class="col-lg-6" style="width: 100%; height: 800px; background-color: #EADEDB">
 				<br>
 				<h3>Result Area:</h3>
 				<hr>
@@ -60,5 +107,7 @@
 			  <span>Created by Junyue Wu<i class="fa fa-eercast" aria-hidden="true"></i>, Jian Song <i class="fa fa-grav" aria-hidden="true"></i></span>
 			</div>
 		</footer>
+
+		<script src="{{url_for('static', filename='js/index.js') }}"></script>
 	</body>
 </html>
