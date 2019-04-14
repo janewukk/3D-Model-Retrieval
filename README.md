@@ -4,7 +4,7 @@
 follow setup instruction of https://github.com/zddhub/opensse
 
 ### Delete release folder and rebuild
-* rm -r opensse-master/release
+* rm -r opensse-master/release/
 * mkdir release
 * cd release
 * cmake ..
