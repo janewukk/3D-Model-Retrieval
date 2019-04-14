@@ -1,4 +1,4 @@
-# Install script for directory: /Users/junyuewu/Desktop/opensse-master/tools
+# Install script for directory: /Users/junyuewu/Desktop/visual db final/3D-Model-Retrieval/opensse-master/tools
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -41,11 +41,11 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/usr/local/bin" TYPE EXECUTABLE FILES "/Users/junyuewu/Desktop/opensse-master/release/bin/index")
+file(INSTALL DESTINATION "/usr/local/bin" TYPE EXECUTABLE FILES "/Users/junyuewu/Desktop/visual db final/3D-Model-Retrieval/opensse-master/release/bin/index")
   if(EXISTS "$ENV{DESTDIR}/usr/local/bin/index" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}/usr/local/bin/index")
     execute_process(COMMAND /usr/bin/install_name_tool
-      -delete_rpath "/Users/junyuewu/Desktop/opensse-master/release/lib"
+      -delete_rpath "/Users/junyuewu/Desktop/visual db final/3D-Model-Retrieval/opensse-master/release/lib"
       "$ENV{DESTDIR}/usr/local/bin/index")
     execute_process(COMMAND /usr/bin/install_name_tool
       -delete_rpath "/usr/local/lib"
@@ -65,11 +65,11 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/usr/local/bin" TYPE EXECUTABLE FILES "/Users/junyuewu/Desktop/opensse-master/release/bin/extract")
+file(INSTALL DESTINATION "/usr/local/bin" TYPE EXECUTABLE FILES "/Users/junyuewu/Desktop/visual db final/3D-Model-Retrieval/opensse-master/release/bin/extract")
   if(EXISTS "$ENV{DESTDIR}/usr/local/bin/extract" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}/usr/local/bin/extract")
     execute_process(COMMAND /usr/bin/install_name_tool
-      -delete_rpath "/Users/junyuewu/Desktop/opensse-master/release/lib"
+      -delete_rpath "/Users/junyuewu/Desktop/visual db final/3D-Model-Retrieval/opensse-master/release/lib"
       "$ENV{DESTDIR}/usr/local/bin/extract")
     execute_process(COMMAND /usr/bin/install_name_tool
       -delete_rpath "/usr/local/lib"
@@ -89,11 +89,11 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/usr/local/bin" TYPE EXECUTABLE FILES "/Users/junyuewu/Desktop/opensse-master/release/bin/vocabulary")
+file(INSTALL DESTINATION "/usr/local/bin" TYPE EXECUTABLE FILES "/Users/junyuewu/Desktop/visual db final/3D-Model-Retrieval/opensse-master/release/bin/vocabulary")
   if(EXISTS "$ENV{DESTDIR}/usr/local/bin/vocabulary" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}/usr/local/bin/vocabulary")
     execute_process(COMMAND /usr/bin/install_name_tool
-      -delete_rpath "/Users/junyuewu/Desktop/opensse-master/release/lib"
+      -delete_rpath "/Users/junyuewu/Desktop/visual db final/3D-Model-Retrieval/opensse-master/release/lib"
       "$ENV{DESTDIR}/usr/local/bin/vocabulary")
     execute_process(COMMAND /usr/bin/install_name_tool
       -delete_rpath "/usr/local/lib"
@@ -113,11 +113,11 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/usr/local/bin" TYPE EXECUTABLE FILES "/Users/junyuewu/Desktop/opensse-master/release/bin/quantize")
+file(INSTALL DESTINATION "/usr/local/bin" TYPE EXECUTABLE FILES "/Users/junyuewu/Desktop/visual db final/3D-Model-Retrieval/opensse-master/release/bin/quantize")
   if(EXISTS "$ENV{DESTDIR}/usr/local/bin/quantize" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}/usr/local/bin/quantize")
     execute_process(COMMAND /usr/bin/install_name_tool
-      -delete_rpath "/Users/junyuewu/Desktop/opensse-master/release/lib"
+      -delete_rpath "/Users/junyuewu/Desktop/visual db final/3D-Model-Retrieval/opensse-master/release/lib"
       "$ENV{DESTDIR}/usr/local/bin/quantize")
     execute_process(COMMAND /usr/bin/install_name_tool
       -delete_rpath "/usr/local/lib"
@@ -137,11 +137,11 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/usr/local/bin" TYPE EXECUTABLE FILES "/Users/junyuewu/Desktop/opensse-master/release/bin/search")
+file(INSTALL DESTINATION "/usr/local/bin" TYPE EXECUTABLE FILES "/Users/junyuewu/Desktop/visual db final/3D-Model-Retrieval/opensse-master/release/bin/search")
   if(EXISTS "$ENV{DESTDIR}/usr/local/bin/search" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}/usr/local/bin/search")
     execute_process(COMMAND /usr/bin/install_name_tool
-      -delete_rpath "/Users/junyuewu/Desktop/opensse-master/release/lib"
+      -delete_rpath "/Users/junyuewu/Desktop/visual db final/3D-Model-Retrieval/opensse-master/release/lib"
       "$ENV{DESTDIR}/usr/local/bin/search")
     execute_process(COMMAND /usr/bin/install_name_tool
       -delete_rpath "/usr/local/lib"
@@ -161,11 +161,11 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/usr/local/bin" TYPE EXECUTABLE FILES "/Users/junyuewu/Desktop/opensse-master/release/bin/extract_and_quantize")
+file(INSTALL DESTINATION "/usr/local/bin" TYPE EXECUTABLE FILES "/Users/junyuewu/Desktop/visual db final/3D-Model-Retrieval/opensse-master/release/bin/extract_and_quantize")
   if(EXISTS "$ENV{DESTDIR}/usr/local/bin/extract_and_quantize" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}/usr/local/bin/extract_and_quantize")
     execute_process(COMMAND /usr/bin/install_name_tool
-      -delete_rpath "/Users/junyuewu/Desktop/opensse-master/release/lib"
+      -delete_rpath "/Users/junyuewu/Desktop/visual db final/3D-Model-Retrieval/opensse-master/release/lib"
       "$ENV{DESTDIR}/usr/local/bin/extract_and_quantize")
     execute_process(COMMAND /usr/bin/install_name_tool
       -delete_rpath "/usr/local/lib"
@@ -186,8 +186,8 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
 file(INSTALL DESTINATION "/usr/local/bin" TYPE FILE PERMISSIONS OWNER_EXECUTE OWNER_WRITE OWNER_READ FILES
-    "/Users/junyuewu/Desktop/opensse-master/tools/sse"
-    "/Users/junyuewu/Desktop/opensse-master/tools/filelist"
+    "/Users/junyuewu/Desktop/visual db final/3D-Model-Retrieval/opensse-master/tools/sse"
+    "/Users/junyuewu/Desktop/visual db final/3D-Model-Retrieval/opensse-master/tools/filelist"
     )
 endif()
 

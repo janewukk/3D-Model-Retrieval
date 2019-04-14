@@ -1,4 +1,4 @@
-# Install script for directory: /Users/junyuewu/Desktop/opensse-master/sse
+# Install script for directory: /Users/junyuewu/Desktop/visual db final/3D-Model-Retrieval/opensse-master/sse
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -41,7 +41,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/usr/local/lib" TYPE SHARED_LIBRARY FILES "/Users/junyuewu/Desktop/opensse-master/release/lib/libopensse.dylib")
+file(INSTALL DESTINATION "/usr/local/lib" TYPE SHARED_LIBRARY FILES "/Users/junyuewu/Desktop/visual db final/3D-Model-Retrieval/opensse-master/release/lib/libopensse.dylib")
   if(EXISTS "$ENV{DESTDIR}/usr/local/lib/libopensse.dylib" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}/usr/local/lib/libopensse.dylib")
     execute_process(COMMAND /usr/bin/install_name_tool
@@ -66,8 +66,8 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
 file(INSTALL DESTINATION "/usr/local/include/opensse/common" TYPE FILE FILES
-    "/Users/junyuewu/Desktop/opensse-master/sse/common/distance.h"
-    "/Users/junyuewu/Desktop/opensse-master/sse/common/types.h"
+    "/Users/junyuewu/Desktop/visual db final/3D-Model-Retrieval/opensse-master/sse/common/distance.h"
+    "/Users/junyuewu/Desktop/visual db final/3D-Model-Retrieval/opensse-master/sse/common/types.h"
     )
 endif()
 
@@ -81,9 +81,9 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
 file(INSTALL DESTINATION "/usr/local/include/opensse/io" TYPE FILE FILES
-    "/Users/junyuewu/Desktop/opensse-master/sse/io/filelist.h"
-    "/Users/junyuewu/Desktop/opensse-master/sse/io/json_parser.h"
-    "/Users/junyuewu/Desktop/opensse-master/sse/io/reader_writer.h"
+    "/Users/junyuewu/Desktop/visual db final/3D-Model-Retrieval/opensse-master/sse/io/filelist.h"
+    "/Users/junyuewu/Desktop/visual db final/3D-Model-Retrieval/opensse-master/sse/io/json_parser.h"
+    "/Users/junyuewu/Desktop/visual db final/3D-Model-Retrieval/opensse-master/sse/io/reader_writer.h"
     )
 endif()
 
@@ -97,11 +97,11 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
 file(INSTALL DESTINATION "/usr/local/include/opensse/features" TYPE FILE FILES
-    "/Users/junyuewu/Desktop/opensse-master/sse/features/detector.h"
-    "/Users/junyuewu/Desktop/opensse-master/sse/features/feature.h"
-    "/Users/junyuewu/Desktop/opensse-master/sse/features/galif.h"
-    "/Users/junyuewu/Desktop/opensse-master/sse/features/generator.h"
-    "/Users/junyuewu/Desktop/opensse-master/sse/features/util.h"
+    "/Users/junyuewu/Desktop/visual db final/3D-Model-Retrieval/opensse-master/sse/features/detector.h"
+    "/Users/junyuewu/Desktop/visual db final/3D-Model-Retrieval/opensse-master/sse/features/feature.h"
+    "/Users/junyuewu/Desktop/visual db final/3D-Model-Retrieval/opensse-master/sse/features/galif.h"
+    "/Users/junyuewu/Desktop/visual db final/3D-Model-Retrieval/opensse-master/sse/features/generator.h"
+    "/Users/junyuewu/Desktop/visual db final/3D-Model-Retrieval/opensse-master/sse/features/util.h"
     )
 endif()
 
@@ -114,7 +114,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/usr/local/include/opensse/quantize" TYPE FILE FILES "/Users/junyuewu/Desktop/opensse-master/sse/quantize/quantizer.h")
+file(INSTALL DESTINATION "/usr/local/include/opensse/quantize" TYPE FILE FILES "/Users/junyuewu/Desktop/visual db final/3D-Model-Retrieval/opensse-master/sse/quantize/quantizer.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -127,8 +127,8 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
 file(INSTALL DESTINATION "/usr/local/include/opensse/index" TYPE FILE FILES
-    "/Users/junyuewu/Desktop/opensse-master/sse/index/invertedindex.h"
-    "/Users/junyuewu/Desktop/opensse-master/sse/index/tfidf.h"
+    "/Users/junyuewu/Desktop/visual db final/3D-Model-Retrieval/opensse-master/sse/index/invertedindex.h"
+    "/Users/junyuewu/Desktop/visual db final/3D-Model-Retrieval/opensse-master/sse/index/tfidf.h"
     )
 endif()
 
@@ -142,8 +142,8 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
 file(INSTALL DESTINATION "/usr/local/include/opensse/vocabulary" TYPE FILE FILES
-    "/Users/junyuewu/Desktop/opensse-master/sse/vocabulary/kmeans.h"
-    "/Users/junyuewu/Desktop/opensse-master/sse/vocabulary/kmeans_init.h"
+    "/Users/junyuewu/Desktop/visual db final/3D-Model-Retrieval/opensse-master/sse/vocabulary/kmeans.h"
+    "/Users/junyuewu/Desktop/visual db final/3D-Model-Retrieval/opensse-master/sse/vocabulary/kmeans_init.h"
     )
 endif()
 
@@ -156,6 +156,6 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/usr/local/include/opensse/." TYPE FILE FILES "/Users/junyuewu/Desktop/opensse-master/sse/./opensse.h")
+file(INSTALL DESTINATION "/usr/local/include/opensse/." TYPE FILE FILES "/Users/junyuewu/Desktop/visual db final/3D-Model-Retrieval/opensse-master/sse/./opensse.h")
 endif()
 

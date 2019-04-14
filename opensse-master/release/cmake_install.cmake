@@ -1,4 +1,4 @@
-# Install script for directory: /Users/junyuewu/Desktop/opensse-master
+# Install script for directory: /Users/junyuewu/Desktop/visual db final/3D-Model-Retrieval/opensse-master
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,8 +34,8 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/Users/junyuewu/Desktop/opensse-master/release/sse/cmake_install.cmake")
-  include("/Users/junyuewu/Desktop/opensse-master/release/tools/cmake_install.cmake")
+  include("/Users/junyuewu/Desktop/visual db final/3D-Model-Retrieval/opensse-master/release/sse/cmake_install.cmake")
+  include("/Users/junyuewu/Desktop/visual db final/3D-Model-Retrieval/opensse-master/release/tools/cmake_install.cmake")
 
 endif()
 
@@ -47,5 +47,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/junyuewu/Desktop/opensse-master/release/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/junyuewu/Desktop/visual db final/3D-Model-Retrieval/opensse-master/release/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

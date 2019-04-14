@@ -6,5 +6,5 @@ CXX_FLAGS =  -std=c++11 -pthread -isysroot /Library/Developer/CommandLineTools/S
 
 CXX_DEFINES = -Dopensse_EXPORTS
 
-CXX_INCLUDES = -I/usr/local/include -I/usr/local/include/opencv4 -I/Users/junyuewu/Desktop/opensse-master/.. -I/Users/junyuewu/Desktop/opensse-master/sse 
+CXX_INCLUDES = -I/usr/local/include -I/usr/local/include/opencv4 -I"/Users/junyuewu/Desktop/visual db final/3D-Model-Retrieval/opensse-master/.." -I"/Users/junyuewu/Desktop/visual db final/3D-Model-Retrieval/opensse-master/sse" 
 

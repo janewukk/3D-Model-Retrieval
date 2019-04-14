@@ -48,10 +48,10 @@ RM = /usr/local/Cellar/cmake/3.13.4/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/junyuewu/Desktop/opensse-master
+CMAKE_SOURCE_DIR = "/Users/junyuewu/Desktop/visual db final/3D-Model-Retrieval/opensse-master"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/junyuewu/Desktop/opensse-master/release
+CMAKE_BINARY_DIR = "/Users/junyuewu/Desktop/visual db final/3D-Model-Retrieval/opensse-master/release"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,14 +126,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/junyuewu/Desktop/opensse-master/release && $(CMAKE_COMMAND) -E cmake_progress_start /Users/junyuewu/Desktop/opensse-master/release/CMakeFiles /Users/junyuewu/Desktop/opensse-master/release/tools/CMakeFiles/progress.marks
-	cd /Users/junyuewu/Desktop/opensse-master/release && $(MAKE) -f CMakeFiles/Makefile2 tools/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/junyuewu/Desktop/opensse-master/release/CMakeFiles 0
+	cd "/Users/junyuewu/Desktop/visual db final/3D-Model-Retrieval/opensse-master/release" && $(CMAKE_COMMAND) -E cmake_progress_start "/Users/junyuewu/Desktop/visual db final/3D-Model-Retrieval/opensse-master/release/CMakeFiles" "/Users/junyuewu/Desktop/visual db final/3D-Model-Retrieval/opensse-master/release/tools/CMakeFiles/progress.marks"
+	cd "/Users/junyuewu/Desktop/visual db final/3D-Model-Retrieval/opensse-master/release" && $(MAKE) -f CMakeFiles/Makefile2 tools/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/junyuewu/Desktop/visual db final/3D-Model-Retrieval/opensse-master/release/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/junyuewu/Desktop/opensse-master/release && $(MAKE) -f CMakeFiles/Makefile2 tools/clean
+	cd "/Users/junyuewu/Desktop/visual db final/3D-Model-Retrieval/opensse-master/release" && $(MAKE) -f CMakeFiles/Makefile2 tools/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,22 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/junyuewu/Desktop/opensse-master/release && $(MAKE) -f CMakeFiles/Makefile2 tools/preinstall
+	cd "/Users/junyuewu/Desktop/visual db final/3D-Model-Retrieval/opensse-master/release" && $(MAKE) -f CMakeFiles/Makefile2 tools/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/junyuewu/Desktop/opensse-master/release && $(MAKE) -f CMakeFiles/Makefile2 tools/preinstall
+	cd "/Users/junyuewu/Desktop/visual db final/3D-Model-Retrieval/opensse-master/release" && $(MAKE) -f CMakeFiles/Makefile2 tools/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/junyuewu/Desktop/opensse-master/release && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd "/Users/junyuewu/Desktop/visual db final/3D-Model-Retrieval/opensse-master/release" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 tools/CMakeFiles/extract_and_quantize.dir/rule:
-	cd /Users/junyuewu/Desktop/opensse-master/release && $(MAKE) -f CMakeFiles/Makefile2 tools/CMakeFiles/extract_and_quantize.dir/rule
+	cd "/Users/junyuewu/Desktop/visual db final/3D-Model-Retrieval/opensse-master/release" && $(MAKE) -f CMakeFiles/Makefile2 tools/CMakeFiles/extract_and_quantize.dir/rule
 .PHONY : tools/CMakeFiles/extract_and_quantize.dir/rule
 
 # Convenience name for target.
@@ -168,12 +168,12 @@ extract_and_quantize: tools/CMakeFiles/extract_and_quantize.dir/rule
 
 # fast build rule for target.
 extract_and_quantize/fast:
-	cd /Users/junyuewu/Desktop/opensse-master/release && $(MAKE) -f tools/CMakeFiles/extract_and_quantize.dir/build.make tools/CMakeFiles/extract_and_quantize.dir/build
+	cd "/Users/junyuewu/Desktop/visual db final/3D-Model-Retrieval/opensse-master/release" && $(MAKE) -f tools/CMakeFiles/extract_and_quantize.dir/build.make tools/CMakeFiles/extract_and_quantize.dir/build
 .PHONY : extract_and_quantize/fast
 
 # Convenience name for target.
 tools/CMakeFiles/quantize.dir/rule:
-	cd /Users/junyuewu/Desktop/opensse-master/release && $(MAKE) -f CMakeFiles/Makefile2 tools/CMakeFiles/quantize.dir/rule
+	cd "/Users/junyuewu/Desktop/visual db final/3D-Model-Retrieval/opensse-master/release" && $(MAKE) -f CMakeFiles/Makefile2 tools/CMakeFiles/quantize.dir/rule
 .PHONY : tools/CMakeFiles/quantize.dir/rule
 
 # Convenience name for target.
@@ -183,12 +183,12 @@ quantize: tools/CMakeFiles/quantize.dir/rule
 
 # fast build rule for target.
 quantize/fast:
-	cd /Users/junyuewu/Desktop/opensse-master/release && $(MAKE) -f tools/CMakeFiles/quantize.dir/build.make tools/CMakeFiles/quantize.dir/build
+	cd "/Users/junyuewu/Desktop/visual db final/3D-Model-Retrieval/opensse-master/release" && $(MAKE) -f tools/CMakeFiles/quantize.dir/build.make tools/CMakeFiles/quantize.dir/build
 .PHONY : quantize/fast
 
 # Convenience name for target.
 tools/CMakeFiles/vocabulary.dir/rule:
-	cd /Users/junyuewu/Desktop/opensse-master/release && $(MAKE) -f CMakeFiles/Makefile2 tools/CMakeFiles/vocabulary.dir/rule
+	cd "/Users/junyuewu/Desktop/visual db final/3D-Model-Retrieval/opensse-master/release" && $(MAKE) -f CMakeFiles/Makefile2 tools/CMakeFiles/vocabulary.dir/rule
 .PHONY : tools/CMakeFiles/vocabulary.dir/rule
 
 # Convenience name for target.
@@ -198,12 +198,12 @@ vocabulary: tools/CMakeFiles/vocabulary.dir/rule
 
 # fast build rule for target.
 vocabulary/fast:
-	cd /Users/junyuewu/Desktop/opensse-master/release && $(MAKE) -f tools/CMakeFiles/vocabulary.dir/build.make tools/CMakeFiles/vocabulary.dir/build
+	cd "/Users/junyuewu/Desktop/visual db final/3D-Model-Retrieval/opensse-master/release" && $(MAKE) -f tools/CMakeFiles/vocabulary.dir/build.make tools/CMakeFiles/vocabulary.dir/build
 .PHONY : vocabulary/fast
 
 # Convenience name for target.
 tools/CMakeFiles/search.dir/rule:
-	cd /Users/junyuewu/Desktop/opensse-master/release && $(MAKE) -f CMakeFiles/Makefile2 tools/CMakeFiles/search.dir/rule
+	cd "/Users/junyuewu/Desktop/visual db final/3D-Model-Retrieval/opensse-master/release" && $(MAKE) -f CMakeFiles/Makefile2 tools/CMakeFiles/search.dir/rule
 .PHONY : tools/CMakeFiles/search.dir/rule
 
 # Convenience name for target.
@@ -213,12 +213,12 @@ search: tools/CMakeFiles/search.dir/rule
 
 # fast build rule for target.
 search/fast:
-	cd /Users/junyuewu/Desktop/opensse-master/release && $(MAKE) -f tools/CMakeFiles/search.dir/build.make tools/CMakeFiles/search.dir/build
+	cd "/Users/junyuewu/Desktop/visual db final/3D-Model-Retrieval/opensse-master/release" && $(MAKE) -f tools/CMakeFiles/search.dir/build.make tools/CMakeFiles/search.dir/build
 .PHONY : search/fast
 
 # Convenience name for target.
 tools/CMakeFiles/extract.dir/rule:
-	cd /Users/junyuewu/Desktop/opensse-master/release && $(MAKE) -f CMakeFiles/Makefile2 tools/CMakeFiles/extract.dir/rule
+	cd "/Users/junyuewu/Desktop/visual db final/3D-Model-Retrieval/opensse-master/release" && $(MAKE) -f CMakeFiles/Makefile2 tools/CMakeFiles/extract.dir/rule
 .PHONY : tools/CMakeFiles/extract.dir/rule
 
 # Convenience name for target.
@@ -228,12 +228,12 @@ extract: tools/CMakeFiles/extract.dir/rule
 
 # fast build rule for target.
 extract/fast:
-	cd /Users/junyuewu/Desktop/opensse-master/release && $(MAKE) -f tools/CMakeFiles/extract.dir/build.make tools/CMakeFiles/extract.dir/build
+	cd "/Users/junyuewu/Desktop/visual db final/3D-Model-Retrieval/opensse-master/release" && $(MAKE) -f tools/CMakeFiles/extract.dir/build.make tools/CMakeFiles/extract.dir/build
 .PHONY : extract/fast
 
 # Convenience name for target.
 tools/CMakeFiles/index.dir/rule:
-	cd /Users/junyuewu/Desktop/opensse-master/release && $(MAKE) -f CMakeFiles/Makefile2 tools/CMakeFiles/index.dir/rule
+	cd "/Users/junyuewu/Desktop/visual db final/3D-Model-Retrieval/opensse-master/release" && $(MAKE) -f CMakeFiles/Makefile2 tools/CMakeFiles/index.dir/rule
 .PHONY : tools/CMakeFiles/index.dir/rule
 
 # Convenience name for target.
@@ -243,7 +243,7 @@ index: tools/CMakeFiles/index.dir/rule
 
 # fast build rule for target.
 index/fast:
-	cd /Users/junyuewu/Desktop/opensse-master/release && $(MAKE) -f tools/CMakeFiles/index.dir/build.make tools/CMakeFiles/index.dir/build
+	cd "/Users/junyuewu/Desktop/visual db final/3D-Model-Retrieval/opensse-master/release" && $(MAKE) -f tools/CMakeFiles/index.dir/build.make tools/CMakeFiles/index.dir/build
 .PHONY : index/fast
 
 extract.o: extract.cpp.o
@@ -252,7 +252,7 @@ extract.o: extract.cpp.o
 
 # target to build an object file
 extract.cpp.o:
-	cd /Users/junyuewu/Desktop/opensse-master/release && $(MAKE) -f tools/CMakeFiles/extract.dir/build.make tools/CMakeFiles/extract.dir/extract.cpp.o
+	cd "/Users/junyuewu/Desktop/visual db final/3D-Model-Retrieval/opensse-master/release" && $(MAKE) -f tools/CMakeFiles/extract.dir/build.make tools/CMakeFiles/extract.dir/extract.cpp.o
 .PHONY : extract.cpp.o
 
 extract.i: extract.cpp.i
@@ -261,7 +261,7 @@ extract.i: extract.cpp.i
 
 # target to preprocess a source file
 extract.cpp.i:
-	cd /Users/junyuewu/Desktop/opensse-master/release && $(MAKE) -f tools/CMakeFiles/extract.dir/build.make tools/CMakeFiles/extract.dir/extract.cpp.i
+	cd "/Users/junyuewu/Desktop/visual db final/3D-Model-Retrieval/opensse-master/release" && $(MAKE) -f tools/CMakeFiles/extract.dir/build.make tools/CMakeFiles/extract.dir/extract.cpp.i
 .PHONY : extract.cpp.i
 
 extract.s: extract.cpp.s
@@ -270,7 +270,7 @@ extract.s: extract.cpp.s
 
 # target to generate assembly for a file
 extract.cpp.s:
-	cd /Users/junyuewu/Desktop/opensse-master/release && $(MAKE) -f tools/CMakeFiles/extract.dir/build.make tools/CMakeFiles/extract.dir/extract.cpp.s
+	cd "/Users/junyuewu/Desktop/visual db final/3D-Model-Retrieval/opensse-master/release" && $(MAKE) -f tools/CMakeFiles/extract.dir/build.make tools/CMakeFiles/extract.dir/extract.cpp.s
 .PHONY : extract.cpp.s
 
 extract_and_quantize.o: extract_and_quantize.cpp.o
@@ -279,7 +279,7 @@ extract_and_quantize.o: extract_and_quantize.cpp.o
 
 # target to build an object file
 extract_and_quantize.cpp.o:
-	cd /Users/junyuewu/Desktop/opensse-master/release && $(MAKE) -f tools/CMakeFiles/extract_and_quantize.dir/build.make tools/CMakeFiles/extract_and_quantize.dir/extract_and_quantize.cpp.o
+	cd "/Users/junyuewu/Desktop/visual db final/3D-Model-Retrieval/opensse-master/release" && $(MAKE) -f tools/CMakeFiles/extract_and_quantize.dir/build.make tools/CMakeFiles/extract_and_quantize.dir/extract_and_quantize.cpp.o
 .PHONY : extract_and_quantize.cpp.o
 
 extract_and_quantize.i: extract_and_quantize.cpp.i
@@ -288,7 +288,7 @@ extract_and_quantize.i: extract_and_quantize.cpp.i
 
 # target to preprocess a source file
 extract_and_quantize.cpp.i:
-	cd /Users/junyuewu/Desktop/opensse-master/release && $(MAKE) -f tools/CMakeFiles/extract_and_quantize.dir/build.make tools/CMakeFiles/extract_and_quantize.dir/extract_and_quantize.cpp.i
+	cd "/Users/junyuewu/Desktop/visual db final/3D-Model-Retrieval/opensse-master/release" && $(MAKE) -f tools/CMakeFiles/extract_and_quantize.dir/build.make tools/CMakeFiles/extract_and_quantize.dir/extract_and_quantize.cpp.i
 .PHONY : extract_and_quantize.cpp.i
 
 extract_and_quantize.s: extract_and_quantize.cpp.s
@@ -297,7 +297,7 @@ extract_and_quantize.s: extract_and_quantize.cpp.s
 
 # target to generate assembly for a file
 extract_and_quantize.cpp.s:
-	cd /Users/junyuewu/Desktop/opensse-master/release && $(MAKE) -f tools/CMakeFiles/extract_and_quantize.dir/build.make tools/CMakeFiles/extract_and_quantize.dir/extract_and_quantize.cpp.s
+	cd "/Users/junyuewu/Desktop/visual db final/3D-Model-Retrieval/opensse-master/release" && $(MAKE) -f tools/CMakeFiles/extract_and_quantize.dir/build.make tools/CMakeFiles/extract_and_quantize.dir/extract_and_quantize.cpp.s
 .PHONY : extract_and_quantize.cpp.s
 
 index.o: index.cpp.o
@@ -306,7 +306,7 @@ index.o: index.cpp.o
 
 # target to build an object file
 index.cpp.o:
-	cd /Users/junyuewu/Desktop/opensse-master/release && $(MAKE) -f tools/CMakeFiles/index.dir/build.make tools/CMakeFiles/index.dir/index.cpp.o
+	cd "/Users/junyuewu/Desktop/visual db final/3D-Model-Retrieval/opensse-master/release" && $(MAKE) -f tools/CMakeFiles/index.dir/build.make tools/CMakeFiles/index.dir/index.cpp.o
 .PHONY : index.cpp.o
 
 index.i: index.cpp.i
@@ -315,7 +315,7 @@ index.i: index.cpp.i
 
 # target to preprocess a source file
 index.cpp.i:
-	cd /Users/junyuewu/Desktop/opensse-master/release && $(MAKE) -f tools/CMakeFiles/index.dir/build.make tools/CMakeFiles/index.dir/index.cpp.i
+	cd "/Users/junyuewu/Desktop/visual db final/3D-Model-Retrieval/opensse-master/release" && $(MAKE) -f tools/CMakeFiles/index.dir/build.make tools/CMakeFiles/index.dir/index.cpp.i
 .PHONY : index.cpp.i
 
 index.s: index.cpp.s
@@ -324,7 +324,7 @@ index.s: index.cpp.s
 
 # target to generate assembly for a file
 index.cpp.s:
-	cd /Users/junyuewu/Desktop/opensse-master/release && $(MAKE) -f tools/CMakeFiles/index.dir/build.make tools/CMakeFiles/index.dir/index.cpp.s
+	cd "/Users/junyuewu/Desktop/visual db final/3D-Model-Retrieval/opensse-master/release" && $(MAKE) -f tools/CMakeFiles/index.dir/build.make tools/CMakeFiles/index.dir/index.cpp.s
 .PHONY : index.cpp.s
 
 quantize.o: quantize.cpp.o
@@ -333,7 +333,7 @@ quantize.o: quantize.cpp.o
 
 # target to build an object file
 quantize.cpp.o:
-	cd /Users/junyuewu/Desktop/opensse-master/release && $(MAKE) -f tools/CMakeFiles/quantize.dir/build.make tools/CMakeFiles/quantize.dir/quantize.cpp.o
+	cd "/Users/junyuewu/Desktop/visual db final/3D-Model-Retrieval/opensse-master/release" && $(MAKE) -f tools/CMakeFiles/quantize.dir/build.make tools/CMakeFiles/quantize.dir/quantize.cpp.o
 .PHONY : quantize.cpp.o
 
 quantize.i: quantize.cpp.i
@@ -342,7 +342,7 @@ quantize.i: quantize.cpp.i
 
 # target to preprocess a source file
 quantize.cpp.i:
-	cd /Users/junyuewu/Desktop/opensse-master/release && $(MAKE) -f tools/CMakeFiles/quantize.dir/build.make tools/CMakeFiles/quantize.dir/quantize.cpp.i
+	cd "/Users/junyuewu/Desktop/visual db final/3D-Model-Retrieval/opensse-master/release" && $(MAKE) -f tools/CMakeFiles/quantize.dir/build.make tools/CMakeFiles/quantize.dir/quantize.cpp.i
 .PHONY : quantize.cpp.i
 
 quantize.s: quantize.cpp.s
@@ -351,7 +351,7 @@ quantize.s: quantize.cpp.s
 
 # target to generate assembly for a file
 quantize.cpp.s:
-	cd /Users/junyuewu/Desktop/opensse-master/release && $(MAKE) -f tools/CMakeFiles/quantize.dir/build.make tools/CMakeFiles/quantize.dir/quantize.cpp.s
+	cd "/Users/junyuewu/Desktop/visual db final/3D-Model-Retrieval/opensse-master/release" && $(MAKE) -f tools/CMakeFiles/quantize.dir/build.make tools/CMakeFiles/quantize.dir/quantize.cpp.s
 .PHONY : quantize.cpp.s
 
 search.o: search.cpp.o
@@ -360,7 +360,7 @@ search.o: search.cpp.o
 
 # target to build an object file
 search.cpp.o:
-	cd /Users/junyuewu/Desktop/opensse-master/release && $(MAKE) -f tools/CMakeFiles/search.dir/build.make tools/CMakeFiles/search.dir/search.cpp.o
+	cd "/Users/junyuewu/Desktop/visual db final/3D-Model-Retrieval/opensse-master/release" && $(MAKE) -f tools/CMakeFiles/search.dir/build.make tools/CMakeFiles/search.dir/search.cpp.o
 .PHONY : search.cpp.o
 
 search.i: search.cpp.i
@@ -369,7 +369,7 @@ search.i: search.cpp.i
 
 # target to preprocess a source file
 search.cpp.i:
-	cd /Users/junyuewu/Desktop/opensse-master/release && $(MAKE) -f tools/CMakeFiles/search.dir/build.make tools/CMakeFiles/search.dir/search.cpp.i
+	cd "/Users/junyuewu/Desktop/visual db final/3D-Model-Retrieval/opensse-master/release" && $(MAKE) -f tools/CMakeFiles/search.dir/build.make tools/CMakeFiles/search.dir/search.cpp.i
 .PHONY : search.cpp.i
 
 search.s: search.cpp.s
@@ -378,7 +378,7 @@ search.s: search.cpp.s
 
 # target to generate assembly for a file
 search.cpp.s:
-	cd /Users/junyuewu/Desktop/opensse-master/release && $(MAKE) -f tools/CMakeFiles/search.dir/build.make tools/CMakeFiles/search.dir/search.cpp.s
+	cd "/Users/junyuewu/Desktop/visual db final/3D-Model-Retrieval/opensse-master/release" && $(MAKE) -f tools/CMakeFiles/search.dir/build.make tools/CMakeFiles/search.dir/search.cpp.s
 .PHONY : search.cpp.s
 
 vocabulary.o: vocabulary.cpp.o
@@ -387,7 +387,7 @@ vocabulary.o: vocabulary.cpp.o
 
 # target to build an object file
 vocabulary.cpp.o:
-	cd /Users/junyuewu/Desktop/opensse-master/release && $(MAKE) -f tools/CMakeFiles/vocabulary.dir/build.make tools/CMakeFiles/vocabulary.dir/vocabulary.cpp.o
+	cd "/Users/junyuewu/Desktop/visual db final/3D-Model-Retrieval/opensse-master/release" && $(MAKE) -f tools/CMakeFiles/vocabulary.dir/build.make tools/CMakeFiles/vocabulary.dir/vocabulary.cpp.o
 .PHONY : vocabulary.cpp.o
 
 vocabulary.i: vocabulary.cpp.i
@@ -396,7 +396,7 @@ vocabulary.i: vocabulary.cpp.i
 
 # target to preprocess a source file
 vocabulary.cpp.i:
-	cd /Users/junyuewu/Desktop/opensse-master/release && $(MAKE) -f tools/CMakeFiles/vocabulary.dir/build.make tools/CMakeFiles/vocabulary.dir/vocabulary.cpp.i
+	cd "/Users/junyuewu/Desktop/visual db final/3D-Model-Retrieval/opensse-master/release" && $(MAKE) -f tools/CMakeFiles/vocabulary.dir/build.make tools/CMakeFiles/vocabulary.dir/vocabulary.cpp.i
 .PHONY : vocabulary.cpp.i
 
 vocabulary.s: vocabulary.cpp.s
@@ -405,7 +405,7 @@ vocabulary.s: vocabulary.cpp.s
 
 # target to generate assembly for a file
 vocabulary.cpp.s:
-	cd /Users/junyuewu/Desktop/opensse-master/release && $(MAKE) -f tools/CMakeFiles/vocabulary.dir/build.make tools/CMakeFiles/vocabulary.dir/vocabulary.cpp.s
+	cd "/Users/junyuewu/Desktop/visual db final/3D-Model-Retrieval/opensse-master/release" && $(MAKE) -f tools/CMakeFiles/vocabulary.dir/build.make tools/CMakeFiles/vocabulary.dir/vocabulary.cpp.s
 .PHONY : vocabulary.cpp.s
 
 # Help Target
@@ -455,6 +455,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/junyuewu/Desktop/opensse-master/release && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd "/Users/junyuewu/Desktop/visual db final/3D-Model-Retrieval/opensse-master/release" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

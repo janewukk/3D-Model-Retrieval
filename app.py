@@ -2,6 +2,7 @@ from flask import Flask, render_template,request
 import json
 from base64 import b64decode
 import io
+import subprocess
 
 app = Flask(__name__)
 
@@ -9,9 +10,25 @@ app = Flask(__name__)
 def hello():
 	return render_template('index.html')
 
-def query(filename):
-	f = open(filename)
-	## to be implemented
+def query():
+	# bashCommand = "sse search -i index_file -v vocabulary -f filelist -n 10"
+	bashCommand = "python3 opensse-master/bash_execute.py"
+	bashCommand = bashCommand.split()
+	# print(bashCommand)
+	output = subprocess.call(bashCommand)
+	outfile = open("opensse-master/result.txt", 'r')
+	result_model = []
+	for line in outfile:
+		contents = line.split()
+		if contents[0] != "read":
+			model_dic = {}
+			model_dic["score"] = contents[0]
+			model_dic["filepath"] = contents[1]
+			result_model.append(model_dic)
+	print(result_model)
+	return result_model
+	
+
 
 @app.route("/draw", methods=['POST'])
 def process_draw_data():
@@ -23,20 +40,19 @@ def process_draw_data():
 	with open("query/query.png", "wb") as f:
 		f.write(image_content)
 
-	query("query/query.png")
-	data_back = {
-		"image": [],
-		"rank": []
-	}
+	data_back = query("query/query.png")
 	return json.dumps(data_back)
+
+
 
 @app.route('/upload', methods=['POST'])
 def process_upload_data():
 	file = request.files["file"]
 	file.save("query/query.png")
-	query("query/query.png")
-	data_back = {
-		"image": [],
-		"rank": []
-	}
+	data_back = query("query/query.png")
 	return json.dumps(data_back)
+
+
+
+
+

@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/junyuewu/Desktop/opensse-master/tools/extract.cpp" "/Users/junyuewu/Desktop/opensse-master/release/tools/CMakeFiles/extract.dir/extract.cpp.o"
+  "/Users/junyuewu/Desktop/visual db final/3D-Model-Retrieval/opensse-master/tools/extract.cpp" "/Users/junyuewu/Desktop/visual db final/3D-Model-Retrieval/opensse-master/release/tools/CMakeFiles/extract.dir/extract.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "Clang")
 
@@ -18,7 +18,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/Users/junyuewu/Desktop/opensse-master/release/sse/CMakeFiles/opensse.dir/DependInfo.cmake"
+  "/Users/junyuewu/Desktop/visual db final/3D-Model-Retrieval/opensse-master/release/sse/CMakeFiles/opensse.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

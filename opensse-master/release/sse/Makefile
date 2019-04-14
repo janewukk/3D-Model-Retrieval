@@ -48,10 +48,10 @@ RM = /usr/local/Cellar/cmake/3.13.4/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/junyuewu/Desktop/opensse-master
+CMAKE_SOURCE_DIR = "/Users/junyuewu/Desktop/visual db final/3D-Model-Retrieval/opensse-master"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/junyuewu/Desktop/opensse-master/release
+CMAKE_BINARY_DIR = "/Users/junyuewu/Desktop/visual db final/3D-Model-Retrieval/opensse-master/release"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,14 +126,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/junyuewu/Desktop/opensse-master/release && $(CMAKE_COMMAND) -E cmake_progress_start /Users/junyuewu/Desktop/opensse-master/release/CMakeFiles /Users/junyuewu/Desktop/opensse-master/release/sse/CMakeFiles/progress.marks
-	cd /Users/junyuewu/Desktop/opensse-master/release && $(MAKE) -f CMakeFiles/Makefile2 sse/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/junyuewu/Desktop/opensse-master/release/CMakeFiles 0
+	cd "/Users/junyuewu/Desktop/visual db final/3D-Model-Retrieval/opensse-master/release" && $(CMAKE_COMMAND) -E cmake_progress_start "/Users/junyuewu/Desktop/visual db final/3D-Model-Retrieval/opensse-master/release/CMakeFiles" "/Users/junyuewu/Desktop/visual db final/3D-Model-Retrieval/opensse-master/release/sse/CMakeFiles/progress.marks"
+	cd "/Users/junyuewu/Desktop/visual db final/3D-Model-Retrieval/opensse-master/release" && $(MAKE) -f CMakeFiles/Makefile2 sse/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/junyuewu/Desktop/visual db final/3D-Model-Retrieval/opensse-master/release/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/junyuewu/Desktop/opensse-master/release && $(MAKE) -f CMakeFiles/Makefile2 sse/clean
+	cd "/Users/junyuewu/Desktop/visual db final/3D-Model-Retrieval/opensse-master/release" && $(MAKE) -f CMakeFiles/Makefile2 sse/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,22 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/junyuewu/Desktop/opensse-master/release && $(MAKE) -f CMakeFiles/Makefile2 sse/preinstall
+	cd "/Users/junyuewu/Desktop/visual db final/3D-Model-Retrieval/opensse-master/release" && $(MAKE) -f CMakeFiles/Makefile2 sse/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/junyuewu/Desktop/opensse-master/release && $(MAKE) -f CMakeFiles/Makefile2 sse/preinstall
+	cd "/Users/junyuewu/Desktop/visual db final/3D-Model-Retrieval/opensse-master/release" && $(MAKE) -f CMakeFiles/Makefile2 sse/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/junyuewu/Desktop/opensse-master/release && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd "/Users/junyuewu/Desktop/visual db final/3D-Model-Retrieval/opensse-master/release" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 sse/CMakeFiles/opensse.dir/rule:
-	cd /Users/junyuewu/Desktop/opensse-master/release && $(MAKE) -f CMakeFiles/Makefile2 sse/CMakeFiles/opensse.dir/rule
+	cd "/Users/junyuewu/Desktop/visual db final/3D-Model-Retrieval/opensse-master/release" && $(MAKE) -f CMakeFiles/Makefile2 sse/CMakeFiles/opensse.dir/rule
 .PHONY : sse/CMakeFiles/opensse.dir/rule
 
 # Convenience name for target.
@@ -168,7 +168,7 @@ opensse: sse/CMakeFiles/opensse.dir/rule
 
 # fast build rule for target.
 opensse/fast:
-	cd /Users/junyuewu/Desktop/opensse-master/release && $(MAKE) -f sse/CMakeFiles/opensse.dir/build.make sse/CMakeFiles/opensse.dir/build
+	cd "/Users/junyuewu/Desktop/visual db final/3D-Model-Retrieval/opensse-master/release" && $(MAKE) -f sse/CMakeFiles/opensse.dir/build.make sse/CMakeFiles/opensse.dir/build
 .PHONY : opensse/fast
 
 features/detector.o: features/detector.cpp.o
@@ -177,7 +177,7 @@ features/detector.o: features/detector.cpp.o
 
 # target to build an object file
 features/detector.cpp.o:
-	cd /Users/junyuewu/Desktop/opensse-master/release && $(MAKE) -f sse/CMakeFiles/opensse.dir/build.make sse/CMakeFiles/opensse.dir/features/detector.cpp.o
+	cd "/Users/junyuewu/Desktop/visual db final/3D-Model-Retrieval/opensse-master/release" && $(MAKE) -f sse/CMakeFiles/opensse.dir/build.make sse/CMakeFiles/opensse.dir/features/detector.cpp.o
 .PHONY : features/detector.cpp.o
 
 features/detector.i: features/detector.cpp.i
@@ -186,7 +186,7 @@ features/detector.i: features/detector.cpp.i
 
 # target to preprocess a source file
 features/detector.cpp.i:
-	cd /Users/junyuewu/Desktop/opensse-master/release && $(MAKE) -f sse/CMakeFiles/opensse.dir/build.make sse/CMakeFiles/opensse.dir/features/detector.cpp.i
+	cd "/Users/junyuewu/Desktop/visual db final/3D-Model-Retrieval/opensse-master/release" && $(MAKE) -f sse/CMakeFiles/opensse.dir/build.make sse/CMakeFiles/opensse.dir/features/detector.cpp.i
 .PHONY : features/detector.cpp.i
 
 features/detector.s: features/detector.cpp.s
@@ -195,7 +195,7 @@ features/detector.s: features/detector.cpp.s
 
 # target to generate assembly for a file
 features/detector.cpp.s:
-	cd /Users/junyuewu/Desktop/opensse-master/release && $(MAKE) -f sse/CMakeFiles/opensse.dir/build.make sse/CMakeFiles/opensse.dir/features/detector.cpp.s
+	cd "/Users/junyuewu/Desktop/visual db final/3D-Model-Retrieval/opensse-master/release" && $(MAKE) -f sse/CMakeFiles/opensse.dir/build.make sse/CMakeFiles/opensse.dir/features/detector.cpp.s
 .PHONY : features/detector.cpp.s
 
 features/galif.o: features/galif.cpp.o
@@ -204,7 +204,7 @@ features/galif.o: features/galif.cpp.o
 
 # target to build an object file
 features/galif.cpp.o:
-	cd /Users/junyuewu/Desktop/opensse-master/release && $(MAKE) -f sse/CMakeFiles/opensse.dir/build.make sse/CMakeFiles/opensse.dir/features/galif.cpp.o
+	cd "/Users/junyuewu/Desktop/visual db final/3D-Model-Retrieval/opensse-master/release" && $(MAKE) -f sse/CMakeFiles/opensse.dir/build.make sse/CMakeFiles/opensse.dir/features/galif.cpp.o
 .PHONY : features/galif.cpp.o
 
 features/galif.i: features/galif.cpp.i
@@ -213,7 +213,7 @@ features/galif.i: features/galif.cpp.i
 
 # target to preprocess a source file
 features/galif.cpp.i:
-	cd /Users/junyuewu/Desktop/opensse-master/release && $(MAKE) -f sse/CMakeFiles/opensse.dir/build.make sse/CMakeFiles/opensse.dir/features/galif.cpp.i
+	cd "/Users/junyuewu/Desktop/visual db final/3D-Model-Retrieval/opensse-master/release" && $(MAKE) -f sse/CMakeFiles/opensse.dir/build.make sse/CMakeFiles/opensse.dir/features/galif.cpp.i
 .PHONY : features/galif.cpp.i
 
 features/galif.s: features/galif.cpp.s
@@ -222,7 +222,7 @@ features/galif.s: features/galif.cpp.s
 
 # target to generate assembly for a file
 features/galif.cpp.s:
-	cd /Users/junyuewu/Desktop/opensse-master/release && $(MAKE) -f sse/CMakeFiles/opensse.dir/build.make sse/CMakeFiles/opensse.dir/features/galif.cpp.s
+	cd "/Users/junyuewu/Desktop/visual db final/3D-Model-Retrieval/opensse-master/release" && $(MAKE) -f sse/CMakeFiles/opensse.dir/build.make sse/CMakeFiles/opensse.dir/features/galif.cpp.s
 .PHONY : features/galif.cpp.s
 
 features/generator.o: features/generator.cpp.o
@@ -231,7 +231,7 @@ features/generator.o: features/generator.cpp.o
 
 # target to build an object file
 features/generator.cpp.o:
-	cd /Users/junyuewu/Desktop/opensse-master/release && $(MAKE) -f sse/CMakeFiles/opensse.dir/build.make sse/CMakeFiles/opensse.dir/features/generator.cpp.o
+	cd "/Users/junyuewu/Desktop/visual db final/3D-Model-Retrieval/opensse-master/release" && $(MAKE) -f sse/CMakeFiles/opensse.dir/build.make sse/CMakeFiles/opensse.dir/features/generator.cpp.o
 .PHONY : features/generator.cpp.o
 
 features/generator.i: features/generator.cpp.i
@@ -240,7 +240,7 @@ features/generator.i: features/generator.cpp.i
 
 # target to preprocess a source file
 features/generator.cpp.i:
-	cd /Users/junyuewu/Desktop/opensse-master/release && $(MAKE) -f sse/CMakeFiles/opensse.dir/build.make sse/CMakeFiles/opensse.dir/features/generator.cpp.i
+	cd "/Users/junyuewu/Desktop/visual db final/3D-Model-Retrieval/opensse-master/release" && $(MAKE) -f sse/CMakeFiles/opensse.dir/build.make sse/CMakeFiles/opensse.dir/features/generator.cpp.i
 .PHONY : features/generator.cpp.i
 
 features/generator.s: features/generator.cpp.s
@@ -249,7 +249,7 @@ features/generator.s: features/generator.cpp.s
 
 # target to generate assembly for a file
 features/generator.cpp.s:
-	cd /Users/junyuewu/Desktop/opensse-master/release && $(MAKE) -f sse/CMakeFiles/opensse.dir/build.make sse/CMakeFiles/opensse.dir/features/generator.cpp.s
+	cd "/Users/junyuewu/Desktop/visual db final/3D-Model-Retrieval/opensse-master/release" && $(MAKE) -f sse/CMakeFiles/opensse.dir/build.make sse/CMakeFiles/opensse.dir/features/generator.cpp.s
 .PHONY : features/generator.cpp.s
 
 features/util.o: features/util.cpp.o
@@ -258,7 +258,7 @@ features/util.o: features/util.cpp.o
 
 # target to build an object file
 features/util.cpp.o:
-	cd /Users/junyuewu/Desktop/opensse-master/release && $(MAKE) -f sse/CMakeFiles/opensse.dir/build.make sse/CMakeFiles/opensse.dir/features/util.cpp.o
+	cd "/Users/junyuewu/Desktop/visual db final/3D-Model-Retrieval/opensse-master/release" && $(MAKE) -f sse/CMakeFiles/opensse.dir/build.make sse/CMakeFiles/opensse.dir/features/util.cpp.o
 .PHONY : features/util.cpp.o
 
 features/util.i: features/util.cpp.i
@@ -267,7 +267,7 @@ features/util.i: features/util.cpp.i
 
 # target to preprocess a source file
 features/util.cpp.i:
-	cd /Users/junyuewu/Desktop/opensse-master/release && $(MAKE) -f sse/CMakeFiles/opensse.dir/build.make sse/CMakeFiles/opensse.dir/features/util.cpp.i
+	cd "/Users/junyuewu/Desktop/visual db final/3D-Model-Retrieval/opensse-master/release" && $(MAKE) -f sse/CMakeFiles/opensse.dir/build.make sse/CMakeFiles/opensse.dir/features/util.cpp.i
 .PHONY : features/util.cpp.i
 
 features/util.s: features/util.cpp.s
@@ -276,7 +276,7 @@ features/util.s: features/util.cpp.s
 
 # target to generate assembly for a file
 features/util.cpp.s:
-	cd /Users/junyuewu/Desktop/opensse-master/release && $(MAKE) -f sse/CMakeFiles/opensse.dir/build.make sse/CMakeFiles/opensse.dir/features/util.cpp.s
+	cd "/Users/junyuewu/Desktop/visual db final/3D-Model-Retrieval/opensse-master/release" && $(MAKE) -f sse/CMakeFiles/opensse.dir/build.make sse/CMakeFiles/opensse.dir/features/util.cpp.s
 .PHONY : features/util.cpp.s
 
 index/invertedindex.o: index/invertedindex.cpp.o
@@ -285,7 +285,7 @@ index/invertedindex.o: index/invertedindex.cpp.o
 
 # target to build an object file
 index/invertedindex.cpp.o:
-	cd /Users/junyuewu/Desktop/opensse-master/release && $(MAKE) -f sse/CMakeFiles/opensse.dir/build.make sse/CMakeFiles/opensse.dir/index/invertedindex.cpp.o
+	cd "/Users/junyuewu/Desktop/visual db final/3D-Model-Retrieval/opensse-master/release" && $(MAKE) -f sse/CMakeFiles/opensse.dir/build.make sse/CMakeFiles/opensse.dir/index/invertedindex.cpp.o
 .PHONY : index/invertedindex.cpp.o
 
 index/invertedindex.i: index/invertedindex.cpp.i
@@ -294,7 +294,7 @@ index/invertedindex.i: index/invertedindex.cpp.i
 
 # target to preprocess a source file
 index/invertedindex.cpp.i:
-	cd /Users/junyuewu/Desktop/opensse-master/release && $(MAKE) -f sse/CMakeFiles/opensse.dir/build.make sse/CMakeFiles/opensse.dir/index/invertedindex.cpp.i
+	cd "/Users/junyuewu/Desktop/visual db final/3D-Model-Retrieval/opensse-master/release" && $(MAKE) -f sse/CMakeFiles/opensse.dir/build.make sse/CMakeFiles/opensse.dir/index/invertedindex.cpp.i
 .PHONY : index/invertedindex.cpp.i
 
 index/invertedindex.s: index/invertedindex.cpp.s
@@ -303,7 +303,7 @@ index/invertedindex.s: index/invertedindex.cpp.s
 
 # target to generate assembly for a file
 index/invertedindex.cpp.s:
-	cd /Users/junyuewu/Desktop/opensse-master/release && $(MAKE) -f sse/CMakeFiles/opensse.dir/build.make sse/CMakeFiles/opensse.dir/index/invertedindex.cpp.s
+	cd "/Users/junyuewu/Desktop/visual db final/3D-Model-Retrieval/opensse-master/release" && $(MAKE) -f sse/CMakeFiles/opensse.dir/build.make sse/CMakeFiles/opensse.dir/index/invertedindex.cpp.s
 .PHONY : index/invertedindex.cpp.s
 
 index/tfidf.o: index/tfidf.cpp.o
@@ -312,7 +312,7 @@ index/tfidf.o: index/tfidf.cpp.o
 
 # target to build an object file
 index/tfidf.cpp.o:
-	cd /Users/junyuewu/Desktop/opensse-master/release && $(MAKE) -f sse/CMakeFiles/opensse.dir/build.make sse/CMakeFiles/opensse.dir/index/tfidf.cpp.o
+	cd "/Users/junyuewu/Desktop/visual db final/3D-Model-Retrieval/opensse-master/release" && $(MAKE) -f sse/CMakeFiles/opensse.dir/build.make sse/CMakeFiles/opensse.dir/index/tfidf.cpp.o
 .PHONY : index/tfidf.cpp.o
 
 index/tfidf.i: index/tfidf.cpp.i
@@ -321,7 +321,7 @@ index/tfidf.i: index/tfidf.cpp.i
 
 # target to preprocess a source file
 index/tfidf.cpp.i:
-	cd /Users/junyuewu/Desktop/opensse-master/release && $(MAKE) -f sse/CMakeFiles/opensse.dir/build.make sse/CMakeFiles/opensse.dir/index/tfidf.cpp.i
+	cd "/Users/junyuewu/Desktop/visual db final/3D-Model-Retrieval/opensse-master/release" && $(MAKE) -f sse/CMakeFiles/opensse.dir/build.make sse/CMakeFiles/opensse.dir/index/tfidf.cpp.i
 .PHONY : index/tfidf.cpp.i
 
 index/tfidf.s: index/tfidf.cpp.s
@@ -330,7 +330,7 @@ index/tfidf.s: index/tfidf.cpp.s
 
 # target to generate assembly for a file
 index/tfidf.cpp.s:
-	cd /Users/junyuewu/Desktop/opensse-master/release && $(MAKE) -f sse/CMakeFiles/opensse.dir/build.make sse/CMakeFiles/opensse.dir/index/tfidf.cpp.s
+	cd "/Users/junyuewu/Desktop/visual db final/3D-Model-Retrieval/opensse-master/release" && $(MAKE) -f sse/CMakeFiles/opensse.dir/build.make sse/CMakeFiles/opensse.dir/index/tfidf.cpp.s
 .PHONY : index/tfidf.cpp.s
 
 io/filelist.o: io/filelist.cpp.o
@@ -339,7 +339,7 @@ io/filelist.o: io/filelist.cpp.o
 
 # target to build an object file
 io/filelist.cpp.o:
-	cd /Users/junyuewu/Desktop/opensse-master/release && $(MAKE) -f sse/CMakeFiles/opensse.dir/build.make sse/CMakeFiles/opensse.dir/io/filelist.cpp.o
+	cd "/Users/junyuewu/Desktop/visual db final/3D-Model-Retrieval/opensse-master/release" && $(MAKE) -f sse/CMakeFiles/opensse.dir/build.make sse/CMakeFiles/opensse.dir/io/filelist.cpp.o
 .PHONY : io/filelist.cpp.o
 
 io/filelist.i: io/filelist.cpp.i
@@ -348,7 +348,7 @@ io/filelist.i: io/filelist.cpp.i
 
 # target to preprocess a source file
 io/filelist.cpp.i:
-	cd /Users/junyuewu/Desktop/opensse-master/release && $(MAKE) -f sse/CMakeFiles/opensse.dir/build.make sse/CMakeFiles/opensse.dir/io/filelist.cpp.i
+	cd "/Users/junyuewu/Desktop/visual db final/3D-Model-Retrieval/opensse-master/release" && $(MAKE) -f sse/CMakeFiles/opensse.dir/build.make sse/CMakeFiles/opensse.dir/io/filelist.cpp.i
 .PHONY : io/filelist.cpp.i
 
 io/filelist.s: io/filelist.cpp.s
@@ -357,7 +357,7 @@ io/filelist.s: io/filelist.cpp.s
 
 # target to generate assembly for a file
 io/filelist.cpp.s:
-	cd /Users/junyuewu/Desktop/opensse-master/release && $(MAKE) -f sse/CMakeFiles/opensse.dir/build.make sse/CMakeFiles/opensse.dir/io/filelist.cpp.s
+	cd "/Users/junyuewu/Desktop/visual db final/3D-Model-Retrieval/opensse-master/release" && $(MAKE) -f sse/CMakeFiles/opensse.dir/build.make sse/CMakeFiles/opensse.dir/io/filelist.cpp.s
 .PHONY : io/filelist.cpp.s
 
 io/json_parser.o: io/json_parser.cpp.o
@@ -366,7 +366,7 @@ io/json_parser.o: io/json_parser.cpp.o
 
 # target to build an object file
 io/json_parser.cpp.o:
-	cd /Users/junyuewu/Desktop/opensse-master/release && $(MAKE) -f sse/CMakeFiles/opensse.dir/build.make sse/CMakeFiles/opensse.dir/io/json_parser.cpp.o
+	cd "/Users/junyuewu/Desktop/visual db final/3D-Model-Retrieval/opensse-master/release" && $(MAKE) -f sse/CMakeFiles/opensse.dir/build.make sse/CMakeFiles/opensse.dir/io/json_parser.cpp.o
 .PHONY : io/json_parser.cpp.o
 
 io/json_parser.i: io/json_parser.cpp.i
@@ -375,7 +375,7 @@ io/json_parser.i: io/json_parser.cpp.i
 
 # target to preprocess a source file
 io/json_parser.cpp.i:
-	cd /Users/junyuewu/Desktop/opensse-master/release && $(MAKE) -f sse/CMakeFiles/opensse.dir/build.make sse/CMakeFiles/opensse.dir/io/json_parser.cpp.i
+	cd "/Users/junyuewu/Desktop/visual db final/3D-Model-Retrieval/opensse-master/release" && $(MAKE) -f sse/CMakeFiles/opensse.dir/build.make sse/CMakeFiles/opensse.dir/io/json_parser.cpp.i
 .PHONY : io/json_parser.cpp.i
 
 io/json_parser.s: io/json_parser.cpp.s
@@ -384,7 +384,7 @@ io/json_parser.s: io/json_parser.cpp.s
 
 # target to generate assembly for a file
 io/json_parser.cpp.s:
-	cd /Users/junyuewu/Desktop/opensse-master/release && $(MAKE) -f sse/CMakeFiles/opensse.dir/build.make sse/CMakeFiles/opensse.dir/io/json_parser.cpp.s
+	cd "/Users/junyuewu/Desktop/visual db final/3D-Model-Retrieval/opensse-master/release" && $(MAKE) -f sse/CMakeFiles/opensse.dir/build.make sse/CMakeFiles/opensse.dir/io/json_parser.cpp.s
 .PHONY : io/json_parser.cpp.s
 
 io/reader_writer.o: io/reader_writer.cpp.o
@@ -393,7 +393,7 @@ io/reader_writer.o: io/reader_writer.cpp.o
 
 # target to build an object file
 io/reader_writer.cpp.o:
-	cd /Users/junyuewu/Desktop/opensse-master/release && $(MAKE) -f sse/CMakeFiles/opensse.dir/build.make sse/CMakeFiles/opensse.dir/io/reader_writer.cpp.o
+	cd "/Users/junyuewu/Desktop/visual db final/3D-Model-Retrieval/opensse-master/release" && $(MAKE) -f sse/CMakeFiles/opensse.dir/build.make sse/CMakeFiles/opensse.dir/io/reader_writer.cpp.o
 .PHONY : io/reader_writer.cpp.o
 
 io/reader_writer.i: io/reader_writer.cpp.i
@@ -402,7 +402,7 @@ io/reader_writer.i: io/reader_writer.cpp.i
 
 # target to preprocess a source file
 io/reader_writer.cpp.i:
-	cd /Users/junyuewu/Desktop/opensse-master/release && $(MAKE) -f sse/CMakeFiles/opensse.dir/build.make sse/CMakeFiles/opensse.dir/io/reader_writer.cpp.i
+	cd "/Users/junyuewu/Desktop/visual db final/3D-Model-Retrieval/opensse-master/release" && $(MAKE) -f sse/CMakeFiles/opensse.dir/build.make sse/CMakeFiles/opensse.dir/io/reader_writer.cpp.i
 .PHONY : io/reader_writer.cpp.i
 
 io/reader_writer.s: io/reader_writer.cpp.s
@@ -411,7 +411,7 @@ io/reader_writer.s: io/reader_writer.cpp.s
 
 # target to generate assembly for a file
 io/reader_writer.cpp.s:
-	cd /Users/junyuewu/Desktop/opensse-master/release && $(MAKE) -f sse/CMakeFiles/opensse.dir/build.make sse/CMakeFiles/opensse.dir/io/reader_writer.cpp.s
+	cd "/Users/junyuewu/Desktop/visual db final/3D-Model-Retrieval/opensse-master/release" && $(MAKE) -f sse/CMakeFiles/opensse.dir/build.make sse/CMakeFiles/opensse.dir/io/reader_writer.cpp.s
 .PHONY : io/reader_writer.cpp.s
 
 quantize/quantizer.o: quantize/quantizer.cpp.o
@@ -420,7 +420,7 @@ quantize/quantizer.o: quantize/quantizer.cpp.o
 
 # target to build an object file
 quantize/quantizer.cpp.o:
-	cd /Users/junyuewu/Desktop/opensse-master/release && $(MAKE) -f sse/CMakeFiles/opensse.dir/build.make sse/CMakeFiles/opensse.dir/quantize/quantizer.cpp.o
+	cd "/Users/junyuewu/Desktop/visual db final/3D-Model-Retrieval/opensse-master/release" && $(MAKE) -f sse/CMakeFiles/opensse.dir/build.make sse/CMakeFiles/opensse.dir/quantize/quantizer.cpp.o
 .PHONY : quantize/quantizer.cpp.o
 
 quantize/quantizer.i: quantize/quantizer.cpp.i
@@ -429,7 +429,7 @@ quantize/quantizer.i: quantize/quantizer.cpp.i
 
 # target to preprocess a source file
 quantize/quantizer.cpp.i:
-	cd /Users/junyuewu/Desktop/opensse-master/release && $(MAKE) -f sse/CMakeFiles/opensse.dir/build.make sse/CMakeFiles/opensse.dir/quantize/quantizer.cpp.i
+	cd "/Users/junyuewu/Desktop/visual db final/3D-Model-Retrieval/opensse-master/release" && $(MAKE) -f sse/CMakeFiles/opensse.dir/build.make sse/CMakeFiles/opensse.dir/quantize/quantizer.cpp.i
 .PHONY : quantize/quantizer.cpp.i
 
 quantize/quantizer.s: quantize/quantizer.cpp.s
@@ -438,7 +438,7 @@ quantize/quantizer.s: quantize/quantizer.cpp.s
 
 # target to generate assembly for a file
 quantize/quantizer.cpp.s:
-	cd /Users/junyuewu/Desktop/opensse-master/release && $(MAKE) -f sse/CMakeFiles/opensse.dir/build.make sse/CMakeFiles/opensse.dir/quantize/quantizer.cpp.s
+	cd "/Users/junyuewu/Desktop/visual db final/3D-Model-Retrieval/opensse-master/release" && $(MAKE) -f sse/CMakeFiles/opensse.dir/build.make sse/CMakeFiles/opensse.dir/quantize/quantizer.cpp.s
 .PHONY : quantize/quantizer.cpp.s
 
 # Help Target
@@ -495,6 +495,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/junyuewu/Desktop/opensse-master/release && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd "/Users/junyuewu/Desktop/visual db final/3D-Model-Retrieval/opensse-master/release" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 
