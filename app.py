@@ -40,7 +40,7 @@ def process_draw_data():
 	with open("query/query.png", "wb") as f:
 		f.write(image_content)
 
-	data_back = query("query/query.png")
+	data_back = query()
 	return json.dumps(data_back)
 
 
@@ -48,8 +48,8 @@ def process_draw_data():
 @app.route('/upload', methods=['POST'])
 def process_upload_data():
 	file = request.files["file"]
-	file.save("query/query.png")
-	data_back = query("query/query.png")
+	file.save("query/query.jpg")
+	data_back = query()
 	return json.dumps(data_back)
 
 
