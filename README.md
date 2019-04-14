@@ -1,11 +1,10 @@
 # 3D-Model-Retrieval
 
-### NEED to setup opencv, follow setup instruction of https://github.com/zddhub/opensse
+### NEED to setup opencv
+follow setup instruction of https://github.com/zddhub/opensse
 
-### Delete release folder under /opensse-master by:
-rm -r opensse-master/release
-
-### rebuild
+### Delete release folder and rebuild
+* rm -r opensse-master/release
 * mkdir release
 * cd release
 * cmake ..
