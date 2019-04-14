@@ -1,5 +1,16 @@
 # 3D-Model-Retrieval
 
+### NEED to setup opencv
+follow setup instruction of https://github.com/zddhub/opensse
+
+### Delete release folder and rebuild
+* rm -r opensse-master/release
+* mkdir release
+* cd release
+* cmake ..
+* make
+* make install
+
 ### Packages to be installed:
 pip install flask
 
