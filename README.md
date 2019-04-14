@@ -6,11 +6,11 @@
 rm -r opensse-master/release
 
 ### rebuild
-mkdir release
-cd release
-cmake ..
-make
-make install
+* mkdir release
+* cd release
+* cmake ..
+* make
+* make install
 
 ### Packages to be installed:
 pip install flask
